@@ -24,7 +24,11 @@ body {
     width: 80%;
     margin: 0 auto;
 }
- /* Header */
+
+.red {
+    color: red;
+}
+ /* *** Header *** */
 
  /* Logo */
  #logo img {
@@ -33,7 +37,7 @@ body {
      border-right: 1px solid #d7d7d7;
  }
 
- /* Navbar*/
+ /* Navbar */
  nav {
      padding: 40px 0;
  }
@@ -54,7 +58,7 @@ nav ul li a:hover {
     color: #bf4c2e;
 }
 
-/* Hero*/
+/* Hero */
 .hero {
     position: relative;
     width: 100%;
@@ -90,7 +94,7 @@ nav ul li a:hover {
     line-height: 1em;
 }
 
-/* Main */
+/* *** Main *** */
 
 /* Title */
 .title {
@@ -140,14 +144,12 @@ nav ul li a:hover {
     font-weight: 300;
     line-height: 1.2em;
 }
-/* Footer */
+
+/* *** Footer *** */
 footer {
     width: 100%;
     padding: 40px;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-}
-.red {
-    color: red;
 }
